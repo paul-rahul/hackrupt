@@ -2,9 +2,9 @@
 	Template Name: Flosix
 	Author: Designstub
 	Author URI: http://www.designstub.com
-	
-	
-	
+
+
+
 /* ------------------------------------------------------------------------------
 	Typography
 -------------------------------------------------------------------------------*/
@@ -129,7 +129,7 @@ ul li {
 	padding: 25px 0;
 }
 #header.fixed .nav-toggle {
-	top: 18px;
+	/* top: 18px; */
 }
 .navigation.open {
 	opacity: 0.9;
@@ -144,6 +144,7 @@ ul li {
 }
 .navigation li {
 	display: inline-block;
+  padding-top: 20px;
 }
 .navigation a {
 	color: rgba(255, 255, 255, 0.75);
@@ -163,7 +164,7 @@ ul li {
 	position: fixed;
 	right: 5%;
 	text-indent: 100%;
-	top: 32px;
+	/* top: 32px; */
 	white-space: nowrap;
 	width: 44px;
 	z-index: 99999;
@@ -340,7 +341,7 @@ ul li {
 .intro blockquote {
 	border: 0;
 	margin: 0;
-	padding: 100px 15% 0;
+	padding: 60px 15% 0;
 }
 .intro h1 {
 	color: #000;
