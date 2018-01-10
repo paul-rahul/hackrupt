@@ -19,6 +19,44 @@ $(document).ready(function() {
 		directionNav: false,
 	});
 
+	var d= new Date('February 3,2018 16:00:00');
+	var refreshCounter = function () {
+		var timeLeft=d-new Date();
+		var daysLeft=timeLeft/(1000*60*60*24);
+		var hoursLeft=(daysLeft-parseInt(daysLeft))*24
+		var minutesLeft= (hoursLeft-parseInt(hoursLeft))*60;
+		var secLeft=(minutesLeft-parseInt(minutesLeft))*60;
+		var sec=$('.sec');
+		sec.html(parseInt(secLeft));
+		$('.min').html(parseInt(minutesLeft));
+		$('.hours').html(parseInt(hoursLeft));
+		$('.days').html(parseInt(daysLeft));
+
+		setInterval(()=>{
+			var timeLeft=d-new Date();
+			var daysLeft=timeLeft/(1000*60*60*24);
+			var hoursLeft=(daysLeft-parseInt(daysLeft))*24
+			var minutesLeft= (hoursLeft-parseInt(hoursLeft))*60;
+			var secLeft=(minutesLeft-parseInt(minutesLeft))*60;
+			var sec=$('.sec');
+			sec.html(parseInt(secLeft));
+			$('.min').html(parseInt(minutesLeft));
+			$('.hours').html(parseInt(hoursLeft));
+			$('.days').html(parseInt(daysLeft));
+
+		},1000)
+	}
+	refreshCounter();
+	function handleTabsFAQ() {
+	        if($('#tabs-faq').length){
+	            var tabs = $('#tabs-faq');
+	            tabs.find('a').on('click', function () {
+	                tabs.find('.fa-angle-right').removeClass('fa-angle-right').addClass('fa-plus');
+	                $(this).find('.fa').removeClass('fa-plus').addClass('fa-angle-right');
+	            });
+	        }
+	    }
+	handleTabsFAQ();
 	// Page Scroll
 	var sections = $('section')
 		nav = $('nav[role="navigation"]');
