@@ -57,9 +57,20 @@
 
 #coming-soon{
     width:100%;
-    font-family:'Alpaca Scarlett Demo';
+    /* font-family:'Alpaca Scarlett Demo'; */
     font-size:25px;
     font-weight:100    ;
     letter-spacing:3px;
     text-transform: none;
+}
+
+.img-thumbnail{
+    border:none;
+    /* height:100px; */
+    background-color: transparent;
+    display:block;
+    margin:0 auto; margin-top: 50px;
+}
+.sponsiimg{
+    height:200px;
 }
