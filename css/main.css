@@ -345,13 +345,14 @@ ul li {
 .intro blockquote {
 	border: 0;
 	margin: 0;
-	padding: 60px 15% 0;
+	padding: 30px 15% 0;
 }
 .intro h1 {
 	color: #000;
 	font: 27px "Source Sans Pro";
 }
 .intro p {
+	padding:0 13%;
 	color: #6c7279;
 	display: block;
 	font-size: 13px;
