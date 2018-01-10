@@ -1,0 +1,65 @@
+
+@font-face {
+    font-family:"Alpaca Scarlett Demo";src:url("../fonts/Alpaca_Scarlett_Demo/Alpaca_Scarlett_Demo.eot?") format("eot"),url("../fonts/Alpaca_Scarlett_Demo/Alpaca_Scarlett_Demo.woff") format("woff"),url("../fonts/Alpaca_Scarlett_Demo/Alpaca_Scarlett_Demo.ttf") format("truetype"),url("../fonts/Alpaca_Scarlett_Demo/Alpaca_Scarlett_Demo.svg#AlpacaScarlettDemo") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
+#description{
+    position: relative;
+    display: block;
+    margin: auto;
+    font-size: 22;
+    text-align: center;
+}
+#service-container .row{
+    width: 100%;
+}
+
+.services{
+    text-align: center;
+    padding: 10px;
+    border:2px solid transparent;
+}
+
+.services:hover{
+    border: 2px dashed black;
+}
+
+#services-content{
+    margin: auto;
+}
+
+#description blockquote{
+    margin: auto;
+}
+
+#services-content{
+    text-align: center;
+}
+
+#map{
+    height: 30vh;
+    width: 100%;
+}
+
+#form-area{
+    text-align: center;
+}
+
+#footer-col{
+    text-align: center;
+}
+
+.logo img{
+    width: 32px;
+    height: 32px;
+}
+
+#coming-soon{
+    width:100%;
+    font-family:'Alpaca Scarlett Demo';
+    font-size:25px;
+    font-weight:100    ;
+    letter-spacing:3px;
+    text-transform: none;
+}
