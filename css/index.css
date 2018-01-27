@@ -74,3 +74,53 @@
 .sponsiimg{
     height:200px;
 }
+.judge-container{
+    margin:100px;
+}
+.judge-indiv{
+    /* width:200px; */
+    height:300px;
+    position: relative;
+    background-image: url(../images/avatar.jpeg);
+    background-size:cover;
+    margin:10px;
+    transition-delay: 0.8s;
+    
+}
+.text-hover{
+    display:none;
+    /* height:300px; */
+    width:80%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:white;
+    transition-delay: 0.8s;
+    
+    /* margin:0 10px; */
+}
+.text-hover h2,h5{
+    color:white;
+}
+.judge-hover{
+    display:none;
+    height:300px;
+    width:100%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0.7;
+    background-color: red;
+    transition-delay: 0.8s;    
+}
+
+
+.judge-indiv:hover .judge-hover{
+    display:block;
+}
+
+.judge-indiv:hover .text-hover{
+    display:block;
+}
