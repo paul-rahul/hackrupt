@@ -75,7 +75,8 @@
     height:200px;
 }
 .judge-container{
-    margin:100px;
+    margin-top:100px;
+    margin-bottom:100px;
 }
 .judge-indiv{
     /* width:200px; */
@@ -95,13 +96,13 @@
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
-    color:white;
+    /* color:white; */
     transition-delay: 0.8s;
     
     /* margin:0 10px; */
 }
 .text-hover h2,h5{
-    color:white;
+    color:rgb(5, 5, 5);
 }
 .judge-hover{
     display:none;
@@ -123,4 +124,39 @@
 
 .judge-indiv:hover .text-hover{
     display:block;
+}
+@media (max-width:991px) and (min-width:400px){
+
+    .judge-indiv{
+        width:80%;
+        /* margin:25px auto; */
+    }
+}
+
+@media (max-width:991px){
+    .text-hover{
+        display:block;
+        /* bottom: 0px; */
+        top:100%;
+        background-color:white;
+        transform: translate(-50%,-100%);
+        opacity: 0.75;
+        width:100%;
+    }
+    .text-hover h2{
+        font-size:25px;
+    }
+    .text-hover h5{
+        font-size:18px;
+    }
+    .judge-indiv{
+        width:90%;
+        margin:25px auto;
+    }
+    .judge-indiv:hover .judge-hover{
+        display: none;
+    }    
+    .judge-hover{
+        display: none;
+    }
 }
