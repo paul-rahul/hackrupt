@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Timelify | Simple Timeline plugin</title>
@@ -8,69 +9,80 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/timelify.css">
 </head>
+
 <body>
 
-<div class="container">
-	<div class="timeline">
-		<h2>3rd Feb 1600 Hours</h2>
-		<ul class="timeline-items">
-			<li class="is-hidden timeline-item"> <!-- Normal block, positionned to the left -->
-				<h3>Hack Begins</h3>
-			</li>
-		</ul>
-		<h2>3rd Feb 1730 Hours</h2>
-		<ul class="timeline-items">
-			<li class="is-hidden timeline-item inverted"> <!-- Normal block, positionned to the right  -->
-				<h3>Evening Snacks</h3>
-			</li>
-		</ul>
-		<h2>3rd Feb 2130 Hours</h2>
-		<ul class="timeline-items">
-			<li class="is-hidden timeline-item">
-				<h3>Dinner</h3>
-			</li>
-		</ul>
-		<h2>4th Feb 0100 Hours</h2>
-		<ul class="timeline-items">
-			<li class="is-hidden timeline-item inverted">
-				<h3>Midnight Snacks</h3>
-			</li>
-		</ul>
-		<h2>4th Feb 0830 Hours</h2>
-		<ul class="timeline-items">
-			<li class="is-hidden timeline-item ">
-				<h3>Breakfast Snacks</h3>
-			</li>
-		</ul>
-		<h2>4th Feb 1400 Hours</h2>
-		<ul class="timeline-items">
-			<li class="is-hidden timeline-item inverted">
-				<h3>Submission Deadline</h3>
-			</li>
-		</ul>
-		<h2>4th Feb 1430 Hours</h2>
-		<ul class="timeline-items">
-			<li class="is-hidden timeline-item ">
-				<h3>Final Presentation</h3>
-			</li>
-		</ul>
+	<div class="container">
+		<div class="timeline">
+			<h2>3rd Feb 1430 Hours</h2>
+			<ul class="timeline-items">
+				<li class="is-hidden timeline-item">
+					<!-- Normal block, positionned to the left -->
+					<h3>Hack Begins</h3>
+				</li>
+			</ul>
+			<h2>3rd Feb 1600 Hours</h2>
+			<ul class="timeline-items">
+				<li class="is-hidden timeline-item">
+					<!-- Normal block, positionned to the left -->
+					<h3>Hack Begins</h3>
+				</li>
+			</ul>
+			<h2>3rd Feb 1730 Hours</h2>
+			<ul class="timeline-items">
+				<li class="is-hidden timeline-item inverted">
+					<!-- Normal block, positionned to the right  -->
+					<h3>Evening Snacks</h3>
+				</li>
+			</ul>
+			<h2>3rd Feb 2130 Hours</h2>
+			<ul class="timeline-items">
+				<li class="is-hidden timeline-item">
+					<h3>Dinner</h3>
+				</li>
+			</ul>
+			<h2>4th Feb 0100 Hours</h2>
+			<ul class="timeline-items">
+				<li class="is-hidden timeline-item inverted">
+					<h3>Midnight Snacks</h3>
+				</li>
+			</ul>
+			<h2>4th Feb 0830 Hours</h2>
+			<ul class="timeline-items">
+				<li class="is-hidden timeline-item ">
+					<h3>Breakfast Snacks</h3>
+				</li>
+			</ul>
+			<h2>4th Feb 1400 Hours</h2>
+			<ul class="timeline-items">
+				<li class="is-hidden timeline-item inverted">
+					<h3>Submission Deadline</h3>
+				</li>
+			</ul>
+			<h2>4th Feb 1430 Hours</h2>
+			<ul class="timeline-items">
+				<li class="is-hidden timeline-item ">
+					<h3>Final Presentation</h3>
+				</li>
+			</ul>
 
+		</div>
 	</div>
-</div>
 
 
 
-<script src="js/jquery.js"></script>
-<script src="js/jquery.timelify.js"></script>
-<script>
-	$('.timeline').timelify({
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.timelify.js"></script>
+	<script>
+		$('.timeline').timelify({
 			animLeft: "fadeInLeft",
-		animCenter: "fadeInUp",
-		animRight: "fadeInRight",
-		animSpeed: 600,
-		offset: 150
-	});
-</script>
+			animCenter: "fadeInUp",
+			animRight: "fadeInRight",
+			animSpeed: 600,
+			offset: 150
+		});
+	</script>
 
 </body>
+
 </html>
